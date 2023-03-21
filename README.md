@@ -13,7 +13,7 @@ Yes, all this could also be done using rfcomm / minicom.
 
 -[ Compile
 
-Just type 'make'.
+Just type 'make'
 
 Note: You need to install bluez
 
