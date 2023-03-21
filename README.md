@@ -13,7 +13,7 @@ Yes, all this could also be done using rfcomm / minicom.
 
 -[ Compile
 
-Just type 'make'
+Just type `make`
 
 Note: You need to install bluez
 
@@ -23,9 +23,9 @@ Note: You need to install bluez
 To get all informations, phonebook entries and messages simply
 run:
 
-./bluebugger -a <addr>
+`./bluebugger -a <addr>`
 
-See './bluebugger -h' for all options.
+See `./bluebugger -h` for all options.
 
 
 -[ Support && Bugs
