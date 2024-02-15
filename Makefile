@@ -14,4 +14,3 @@ default:	${SOURCES}
 
 clean:
 		rm -f ${PROG} *.o *~
-
