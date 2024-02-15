@@ -124,4 +124,3 @@ int bt_release(int sock, int dev_id)
 
   return ret;
 }
-
