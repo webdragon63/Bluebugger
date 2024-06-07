@@ -1,4 +1,8 @@
- 
+ # DEPENDENCIES
+
+* [Bluez][3]
+  * On Debian/Ubuntu/Kali `sudo apt install -y libbluetooth-dev`.
+
 [ bluebugger ]
 
 -[ Description
