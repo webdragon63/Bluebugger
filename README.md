@@ -3,9 +3,7 @@
 * [Bluez][3]
   * On Debian/Ubuntu/Kali `sudo apt install -y libbluetooth-dev`.
  
- # BLUEBUGGER
-
-   # Description
+ # BLUEBUGGER DESCRIPTION
 
 bluebugger is a simple implementation of the bluebug technique
 which was discovered by Martin Herfurt, see:
@@ -15,14 +13,14 @@ http://trifinite.org/trifinite_stuff_bluebug.html
 Yes, all this could also be done using rfcomm / minicom.
 
 
-    # Compile
+   # Compile
 
 Just type `make`
 
 Note: You need to install bluez
 
 
-    # Usage
+   # Usage
 
 To get all informations, phonebook entries and messages simply
 run:
@@ -32,7 +30,7 @@ run:
 See `./bluebugger -h` for all options.
 
 
-    # Support && Bugs
+   # Support && Bugs
 
 If you find any new cool combinations of AT commands please contribute
 them by sending a mail to mjm (-@-) codito.de
