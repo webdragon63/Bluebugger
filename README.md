@@ -32,9 +32,9 @@ See `./bluebugger -h` for all options.
    # Alternative Process
 
 To get all informations, phonebook entries and messages simply
-run:
+run this shortcut method.
 
- `sudo bash bluebugger.sh` This is a shortcut method.
+ `sudo bash bluebugger.sh` 
 
 
   # Updated by
