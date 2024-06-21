@@ -37,6 +37,7 @@ run:
  `sudo bash bluebugger.sh` This is a shortcut method.
 
 
+   Updated by
+INDIAN CYBER ARMY
 
-Max Moser
-Martin Herfurt
+YT CHANNEL: https://www.youtube.com/@indiancyberarmy5
