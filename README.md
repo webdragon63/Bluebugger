@@ -11,7 +11,12 @@ which was discovered by Martin Herfurt, see:
 http://trifinite.org/trifinite_stuff_bluebug.html
 
 Yes, all this could also be done using rfcomm / minicom.
-
+   # Installation
+   shell ```
+https://github.com/webdragon63/Bluebugger.git
+cd Bluebugger
+make
+```
 
    # Compile
 
