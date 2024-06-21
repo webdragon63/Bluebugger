@@ -1,5 +1,5 @@
 # bin/bash
-apt install figlet -y
+apt install -y figlet
 clear
 mkdir -p /dev/bluetooth/rfcomm
 mknod -m 666 /dev/bluetooth/rfcomm/0 c 216 0
