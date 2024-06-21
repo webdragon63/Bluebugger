@@ -12,7 +12,7 @@ http://trifinite.org/trifinite_stuff_bluebug.html
 
 Yes, all this could also be done using rfcomm / minicom.
    # Installation
-   shell ```
+   ```shell 
 https://github.com/webdragon63/Bluebugger.git
 cd Bluebugger
 make
