@@ -5,7 +5,7 @@
  
  # BLUEBUGGER DESCRIPTION
 
-bluebugger is a simple implementation of the bluebug technique
+Bluebugger is a simple implementation of the bluebug technique
 which was discovered by Martin Herfurt
 
 Yes, all this could also be done using rfcomm / minicom.
@@ -37,7 +37,8 @@ run:
  `sudo bash bluebugger.sh` This is a shortcut method.
 
 
-   Updated by
+  # Updated by
+
 INDIAN CYBER ARMY
 
 YT CHANNEL: https://www.youtube.com/@indiancyberarmy5
