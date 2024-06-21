@@ -6,21 +6,16 @@
  # BLUEBUGGER DESCRIPTION
 
 bluebugger is a simple implementation of the bluebug technique
-which was discovered by Martin Herfurt, see:
-
-http://trifinite.org/trifinite_stuff_bluebug.html
+which was discovered by Martin Herfurt
 
 Yes, all this could also be done using rfcomm / minicom.
+
    # Installation
    ```shell 
-https://github.com/webdragon63/Bluebugger.git
+git clone https://github.com/webdragon63/Bluebugger.git
 cd Bluebugger
 make
 ```
-
-   # Compile
-
-Just type `make`
 
 Note: You need to install bluez
 
@@ -42,28 +37,6 @@ run:
  `sudo bash bluebugger.sh` This is a shortcut method.
 
 
-   # Support && Bugs
-
-If you find any new cool combinations of AT commands please contribute
-them by sending a mail to mjm (-@-) codito.de
-
-Bugs: 
-
-* Mainly only tested with Nokia 6310i
-* Sony Ericsson support still pre-alpha, do not use
-* Not all mobile phones are supported, please send me debug logs if
-  it does not work with your (bluebug-vulnerable) mobile phone.
-
-
-    # Author
-
-Martin J. Muench
-
-Mail: mjm (-@-) codito.de
-Web: www.codito.de | www.remote-exploit.org
-
-
--[ Thanks
 
 Max Moser
 Martin Herfurt
