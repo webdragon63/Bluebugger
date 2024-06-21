@@ -16,4 +16,3 @@ read -p "SET ATTACK MODE ====>" MODE
 read -p "SET OUTPUT PATH ====>" P
 read -p "SET OUTPUT FILE NAME (only.txt format) ====>" N
 ./bluebugger -a $ADDR $MODE -c 2 -o $P$N
-
