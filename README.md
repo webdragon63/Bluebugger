@@ -25,16 +25,6 @@ Note: You need to install bluez
 
 
    # Usage
-
-To get all informations, phonebook entries and messages simply
-run:
-
-`./bluebugger -a <addr>`
-
-See `./bluebugger -h` for all options.
-
-   # Alternative Process
-
 To get all informations, phonebook entries and messages simply
 run this shortcut method.
 
