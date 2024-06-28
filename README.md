@@ -26,7 +26,7 @@ Note: You need to install bluez
 
    # Usage
 To get all informations, phonebook entries and messages simply
-run this shortcut method.
+run this command.
 
  `sudo bash bluebugger.sh` 
 
