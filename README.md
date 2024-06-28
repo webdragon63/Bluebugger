@@ -1,3 +1,7 @@
+ # User interface
+![Screenshot at 2024-06-28 15-08-55](https://github.com/webdragon63/Bluebugger/assets/117004849/a79196a2-54e4-4caa-8e80-be57984b80ae)
+
+ 
  # DEPENDENCIES
 
 * [Bluez][3]
