@@ -6,7 +6,7 @@ mknod -m 666 /dev/bluetooth/rfcomm/0 c 216 0
 clear
 figlet -c Bluebugger
 cat << EOF
-                                Version : 1.2
+                                Version : 1.0
                         Updated By : INDIAN-CYBER-ARMY 
                   YouTube : www.youtube.com/@indiancyberarmy5
 
