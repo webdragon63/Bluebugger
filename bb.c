@@ -25,7 +25,7 @@
 #include "wrap.h"
 #include "debug.h"
 
-#define VERSION     "0.1"
+#define VERSION     "1.1"
 #define SAFE_DELETE(x) if(x) free(x);
 
 /* local functions */
