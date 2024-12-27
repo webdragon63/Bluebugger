@@ -14,5 +14,4 @@ EOF
 read -p "SET A BLUETOOTH ADDRESS ====>" ADDR
 read -p "SET ATTACK MODE(e.g info, phonebook, messages) ====>" MODE
 read -p "SET OUTPUT PATH ====>" P
-read -p "SET OUTPUT FILE NAME (only.txt format) ====>" N
-./bluebugger -a $ADDR $MODE -c 2 -o $P$N
+./bluebugger -a $ADDR $MODE -c 2 -o $P
