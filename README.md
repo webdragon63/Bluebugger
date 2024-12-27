@@ -1,3 +1,7 @@
+# About tool
+![Bluebugger](https://github.com/user-attachments/assets/e62544a8-e058-48d0-9ac8-2e78d3f1ce1a)
+BlueBugger is a hacking tool used to exploit Bluetooth vulnerabilities, allowing attackers to gain unauthorized access to devices, eavesdrop, or steal data.
+ 
  # User interface
 ![Screenshot at 2024-12-27 21-35-13](https://github.com/user-attachments/assets/6598912e-ac8f-4f4b-ba79-aa3bfd6fd00b)
 
