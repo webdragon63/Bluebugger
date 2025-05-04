@@ -23,7 +23,6 @@ Yes, all this could also be done using rfcomm / minicom.
 sudo apt install -y libbluetooth-dev
 git clone https://github.com/webdragon63/Bluebugger.git
 cd Bluebugger
-make
 ```
 
 Note: You need to install bluez
