@@ -10,7 +10,7 @@ SOURCES		= bb.c bt.c at.c wrap.c debug.c
 		${CC} ${FLAGS} ${D_FLAGS} -c $< 
 
 default:	${SOURCES}
-		${CC} ${FLAGS} ${D_FLAGS} -o ${PROG} ${SOURCES} ${LIBS}
+		${CC} ${FLAGS} ${D_FLAGS} -o src/${PROG} ${SOURCES} ${LIBS}
 
 clean:
 		rm -f ${PROG} *.o *~
