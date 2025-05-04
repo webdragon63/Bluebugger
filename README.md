@@ -19,7 +19,8 @@ which was discovered by Martin Herfurt
 Yes, all this could also be done using rfcomm / minicom.
 
    # Installation
-   ```shell 
+   ```shell
+sudo apt install -y libbluetooth-dev
 git clone https://github.com/webdragon63/Bluebugger.git
 cd Bluebugger
 make
